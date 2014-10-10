@@ -26,7 +26,7 @@ sudo apt-get install python-pip
 sudo pip install requests
 
 3) Go to a suitable installation directory and check out the application source:
-~/IAHX_Sitemaps $ git clone https://github.com/falbrito/iahx_sitemap.git
+~/IAHX_Sitemaps $ git clone https://github.com/bireme/iahx_sitemap.git
 
 
 4) Give execute permission to the following files
