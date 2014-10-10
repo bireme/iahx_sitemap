@@ -26,8 +26,8 @@ virtualenv IAHX_Sitemaps
 sudo apt-get install python-pip
 sudo pip install requests
 
-3) Mova para o diretorio e baixe a aplicação
-~/IAHX_Sitemaps $ git clone https://github.com/falbrito/iahx_sitemap.git
+3) Mover para o diretório e baixar a aplicação
+~/IAHX_Sitemaps $ git clone https://github.com/bireme/iahx_sitemap.git
 
 4) Dar permissão de execução
 cd ~/IAHX_Sitemaps
