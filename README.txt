@@ -32,20 +32,20 @@ sudo pip install requests
 4) Give execute permission to the following files
 cd ~/IAHX_Sitemaps
 chmod 775 bin/activate
-chmod 775 application/sitemap.sh
-chmod 775 application/tpl/2-XMLs.sh
-chmod 775 application/tpl/createSitemap.sh
+chmod 775 iahx_sitemap/sitemap.sh
+chmod 775 iahx_sitemap/tpl/2-XMLs.sh
+chmod 775 iahx_sitemap/tpl/createSitemap.sh
 
 5) Configuration for your iAHx
 Edit the file below and set as your environment
-~/IAHX_Sitemaps/application/tpl/getConfig.inc
+~/IAHX_Sitemaps/iahx_sitemap/tpl/getConfig.inc
 
 6) Running the application
-cd ~/IAHX_Sitemaps/application
+cd ~/IAHX_Sitemaps/iahx_sitemap
 ./sitemap.sh
 
 7) Results
-cd ~/IAHX_Sitemaps/application/sitemap
+cd ~/IAHX_Sitemaps/iahx_sitemap/sitemap
 
 The result should be copied to a public area of your website, and then the link should be 
 created in the Google tool for the sitemap available in http://www.google.com.br/webmasters/
