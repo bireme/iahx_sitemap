@@ -1,0 +1,55 @@
+iahx_sitemap
+------------
+
+- O que é um sitemap
+
+Um Sitemap é um arquivo em que é possível listar as páginas de seu site para informar o Google e os outros mecanismos de pesquisa sobre a organização do conteúdo do site. Rastreadores da Web de mecanismos de pesquisa, como o Googlebot, leem esse arquivo para rastrear seu site de forma mais inteligente. 
+
+- Objetivo da aplicação iahx_sitemap
+
+Criar arquivos XML com indicação em forma de link para cada documento existente no iahx a fim de disponibilizar
+para a ferramente de busca do Google.
+
+- Como instalar e configurar o iahx_sitemap
+
+Obs.: A instação foi realizado sobre Linux Ubuntu
+
+1) Criar o virtualenv
+# instalar virtualenv
+sudo apt-get install python-virtualenv
+virtualenv IAHX_Sitemaps
+
+2) Instalar modulo requests do python
+sudo apt-get install python-pip
+sudo pip install requests
+
+3) Fazer o download e descompactar pacote iahx_sitemap.tgz
+~/IAHX_Sitemaps $ git clone https://github.com/falbrito/iahx_sitemap.git
+
+4) Dar permissão de execução
+cd ~/IAHX_Sitemaps
+chmod 775 bin/activate
+chmod 775 application/sitemap.sh
+chmod 775 application/tpl/2-XMLs.sh
+chmod 775 application/tpl/createSitemap.sh
+
+5) Configuração para seu iahx
+Editar o arquivo abaixo e configurar conforme seu ambiente
+~/IAHX_Sitemaps/application/tpl/getConfig.inc
+
+6) Exemplo de execução
+cd ~/IAHX_Sitemaps/application
+./sitemap.sh
+
+7) Resultado
+cd ~/IAHX_Sitemaps/application/sitemap
+
+O resultado deverá ser copiado para uma área pública de seu website, e posteriormente deverá
+ser criado o vínculo na ferramenta do Google para o sitemap disponível em http://www.google.com.br/webmasters/ 
+
+
+
+
+2014/outubro.
+
+
