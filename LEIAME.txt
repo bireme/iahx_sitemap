@@ -3,12 +3,15 @@ iahx_sitemap
 
 - O que é um sitemap
 
-Um Sitemap é um arquivo em que é possível listar as páginas de seu site para informar o Google e os outros mecanismos de pesquisa sobre a organização do conteúdo do site. Rastreadores da Web de mecanismos de pesquisa, como o Googlebot, leem esse arquivo para rastrear seu site de forma mais inteligente. 
+Um Sitemap é um arquivo em que é possível listar as páginas de seu site para informar o Google 
+e os outros mecanismos de pesquisa sobre a organização do conteúdo do site. 
+Rastreadores da Web de mecanismos de pesquisa, como o Googlebot, leem esse arquivo para rastrear 
+seu site de forma mais inteligente. 
 
 - Objetivo da aplicação iahx_sitemap
 
-Criar arquivos XML com indicação em forma de link para cada documento existente no iahx a fim de disponibilizar
-para a ferramente de busca do Google.
+Criar arquivos XML com indicação em forma de link para cada documento existente no iahx 
+a fim de disponibilizar para a ferramenta de busca do Google.
 
 - Como instalar e configurar o iahx_sitemap
 
@@ -23,7 +26,7 @@ virtualenv IAHX_Sitemaps
 sudo apt-get install python-pip
 sudo pip install requests
 
-3) Fazer o download e descompactar pacote iahx_sitemap.tgz
+3) Mova para o diretorio e baixe a aplicação
 ~/IAHX_Sitemaps $ git clone https://github.com/falbrito/iahx_sitemap.git
 
 4) Dar permissão de execução
