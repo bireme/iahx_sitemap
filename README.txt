@@ -25,26 +25,28 @@ virtualenv IAHX_Sitemaps
 sudo apt-get install python-pip
 sudo pip install requests
 
-3) Go to a suitable installation directory and check out the application source:
+3) Install tidy - tool to check HTML and XML files HTML e XML
+sudo apt-get install tidy
+
+4) Go to a suitable installation directory and check out the application source:
 ~/IAHX_Sitemaps $ git clone https://github.com/bireme/iahx_sitemap.git
 
-
-4) Give execute permission to the following files
+5) Give execute permission to the following files
 cd ~/IAHX_Sitemaps
 chmod 775 bin/activate
 chmod 775 iahx_sitemap/sitemap.sh
 chmod 775 iahx_sitemap/tpl/2-XMLs.sh
 chmod 775 iahx_sitemap/tpl/createSitemap.sh
 
-5) Configuration for your iAHx
+6) Configuration for your iAHx
 Edit the file below and set as your environment
 ~/IAHX_Sitemaps/iahx_sitemap/tpl/getConfig.inc
 
-6) Running the application
+7) Running the application
 cd ~/IAHX_Sitemaps/iahx_sitemap
 ./sitemap.sh
 
-7) Results
+8) Results
 cd ~/IAHX_Sitemaps/iahx_sitemap/sitemap
 
 The result should be copied to a public area of your website, and then the link should be 
